@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+      
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.roboto-font-small{
+    font-size: 14px;
+    line-height: 18px;
+    color: #8E8E8E;
+}
+/* side section */
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+#left-side-section{
+    background-color: #FAFAFA;
+    position: fixed;
+    height:100%;
+}
+#left-side-inner{
+    background-color:#FFFFFF;
+    border-right: 3px solid #FAFAFA;
+}
+#left-side-outer{
+    background-color: #FAFAFA;
+}
+.left-nav-logo{
+    width: 24px;
+    height: 24px;
+}
+.left-nav-div{
+    margin: 8px 12px;
+    display: flex;
+    padding: 12px 0;
+    padding: 12px 16px 12px 12px;
+}
+#img-logo{
+    max-height: 29px;
+    max-width: 103px;
+    margin: 40px 0 0 24px;
+}
+#left-side-nav{
+    margin: 0 12px;
+
+}
+.text-center{
+    margin: auto 12px auto 16px;
+    margin-right: 70px;
+}
+#more{
+    margin-bottom: 16px;
+}
+
+/* story section */
+
+#stories{
+    position: absolute;
+    left: 22%;
+}
+#inner-story{
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+
+}
+.ring-div{
+    position: relative;
+}
+.pp-div{
+    position: absolute;
+    left: 7.1%;
+    top: 6.5%;
+
+}
+.pp{
+    border-radius: 50%;
+    max-width: 56px;
+    max-height: 56px;
+}
+.story-text{
+    font-size: 12px;
+    box-sizing: border-box;
+    width: 74px;
+    text-align: center;
+}
+.story{
+    margin: 12px;
+    position:relative;
+    /* justify-content: flex-start; */
+    align-items: end;
+
+}
+.ring{
+    max-width: 68px;
+    max-height: 68px;
+}
+ 
+/* post section */
+#posts{
+    position: relative;
+    max-width: 470px;
+    margin: 0 0 10% 30%;
+    padding-top: 170px;
+}
+.post-header{
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.post-header-img{
+    /* left:-100%; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.pp-post{
+    border-radius: 50%;
+    max-width: 34px;
+    max-height: 34px;
+}
+.ring-post{
+    max-width: 44px;
+    max-height: 44px;
+}
+.ring-div-post{
+    position: relative;
+}
+.pp-div-post{
+    left: 2.5%;
+    top: 11%;
+    position: absolute;
+
+}
+.story-text-post{
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.blue-tick-img{
+    max-width: 12px;
+    max-height: 12px;
+    margin-left: 4px;
+}
+.time{
+    color: #8E8E8E;
+    margin-left: 25px;
+}
+.options{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.options img{
+    max-width: 24px;
+    max-height: 24px;
+}
+.post-img{
+    max-width: 470px;
+    max-height: 587px;
+}
+.post-interaction{
+    margin: 8px 0 14px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.interaction-icon{
+    max-width: 24px;
+    max-height: 24px;
+}
+.like-numbers{
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+}
+.commments{
+    margin-top: 8px;
+    display: flex;
+    justify-content: flex-start;
+}
+.name{
+    font-weight: 600;
+    font-size: 14px; 
+    line-height: 18px;
+    /* margin-right: ; */
+}
+.comment-text{
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 18px;
+    margin-left: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.translation{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 6px 0;
+}
+.view-comments{
+    color:#8E8E8E;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 8px 0;
+}
+.add-comments{
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin:8px 0
+}
+.emoji-img{
+    max-width: 13px;
+    max-height: 13px;
+}
+.post{
+    border-bottom: 1px solid #DBDBDB
+}
+.comment-like{
+    max-width: 12px;
+    max-height: 12px;
+}
+.more{
+    font-size: 13px;
+    color:  #8e8e8e;    ;
+}
+.tagged{
+    color: #00376B;
+}
+
+/* Suggestions */
+
+.suggestions{
+    padding: 20px;
+    display: flex;
+    border-bottom: 1px solid #DBDBDB;
+    justify-content: space-around;
+
+}
+.suggestion{
+    width: 174px;
+    height: 196px;
+    border: 1px solid #DBDBDB
+    
+}
+.cross-div{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    margin: 12px 12px 0 0;
+}
+.cross{
+
+    max-width: 10px;
+    max-height: 10px;
+}
+.pp-suggestions{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.pp-suggestions-img{
+    border-radius: 50%;
+    max-width: 54px;
+    max-height: 54px;
+
+}
+.pp-suggestions-name{
+    font-size: 13px;
+    line-height: 18px;
+    text-align: center;
+}
+.follow-status{
+    text-align: center;
+    font-size: 13px;
+    color: #8e8e8e;
+    /* margin-bottom:20px; */
+}
+.follow-button{
+    display: flex;
+    justify-content: center;
+    margin: 12px 0 12px 0;
+}
+.follow-button-btn{
+    color: white;
+    background-color: #0095F6;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+.intro{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.see-more{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.see-more a{
+    color: #0095F6;
+
+}
+/* Right side section */
+
+#right-side-section{
+    position: absolute;
+    position: fixed;
+    /* right: 22%; */
+    left: 75%;
+    top: 5%;
+    /* display: flex; */
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    width: 319px;
+}
+.p-details{
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 160px;
+}
+.p-name{
+    color: #262626;
+}
+.switch-btn{
+    color: #0095F6;
+}
+.see-more-rs{
+    color: #0095F6;
+    font-size: 13px;
+    line-height: 18px;
+}
+.see-more-rs a{
+    color: #0095F6;
+}
+.rs-ss{
+    margin: 12px;
+}
+.rs-s-pp-img{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+}
+.rs-s{
+    display: flex;
+}
+.rs-pname{
+    font-size: 14px;
+    line-height: 18px;
+    color: #262626;
+}
+.rs-follow-status{
+    font-size: 11px;
+    line-height: 16px;
+    color: #8E8E8E;
+}
+.rs-text{
+    width: 60px;
+    margin-left: 12px;
+    margin-right: 153px;
+}
+.rs-follow-btn{
+    color: #0095F6;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+}
